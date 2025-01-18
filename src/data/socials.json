@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/donald-amoke",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/justuche224",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:donaldamoke@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

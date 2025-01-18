@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "name": "Chesshub Online",
+      "description": "Online multiplayer chess game with real-time chat, tutorials, and AI opponents",
+      "href": "https://chesshubonline.vercel.app/",
+      "image": "/projects/chesshubonline-desktop-screenshot-gamepage.png",
+      "tags": [
+        "TypeScript",
+        "NextJS",
+        "Pusher Js",
+        "Prisma ORM",
+        "Next Auth",
+        "TailwindCSS"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/justuche224/chesshubonline",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://chesshubonline.vercel.app/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Notestar",
+      "description": "A note-taking app with markdown support, rich-text editing, todos and tables",
+      "href": "https://notestar-two.vercel.app/",
+      "image": "/projects/notestar-desktop-screenshot-new-note-page.png",
+      "tags": [
+        "TypeScript",
+        "NextJS",
+        "Tip Tap",
+        "Next Auth",
+        "TailwindCSS",
+        "Prisma ORM",
+        "MongoDB"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/justuche224/notestar",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://notestar-two.vercel.app/",
+          "icon": "globe"
+        }
+      ]
+    }
+  ]
+}
