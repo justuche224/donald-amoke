@@ -27,10 +27,64 @@
       ]
     },
     {
+      "name": "Zynkart",
+      "description": "All-in-one platform to build, manage, and scale your business online with powerful tools for inventory, shipping, and customer management and a dedicated store website.",
+      "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
+      "image": "/projects/zynkart1.png",
+      "tags": [
+        "TypeScript",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "NextJS",
+        "React Query",
+        "Next Auth",
+        "TailwindCSS"
+      ],
+      "links": [
+        {
+          "name": "Coming soon",
+          "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
+          "icon": "github"
+        },
+        {
+          "name": "Coming soon",
+          "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Notestar",
       "description": "A note-taking app with markdown support, rich-text editing, todos and tables",
       "href": "https://notestar-two.vercel.app/",
       "image": "/projects/notestar-desktop-screenshot-new-note-page.png",
+      "tags": [
+        "TypeScript",
+        "NextJS",
+        "Tip Tap",
+        "Next Auth",
+        "TailwindCSS",
+        "Prisma ORM",
+        "MongoDB"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/justuche224/notestar",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://notestar-two.vercel.app/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "jvst-do-it!",
+      "description": "A minimal and aesthetically pleasing todo app aimed at helping users manage their tasks effectively.",
+      "href": "https://jvst-do-it.vercel.app/",
+      "image": "/projects/jvstdoit.png",
       "tags": [
         "TypeScript",
         "NextJS",

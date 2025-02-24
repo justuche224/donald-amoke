@@ -7,16 +7,17 @@ import { Badge } from "@/components/ui/badge";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import Projects from "@/components/Projects";
 import ContactForm from "@/components/ContactForm";
+import skillsData from "@/data/skills.json";
 
 export default function Home() {
-  const BIRTH_YEAR = 1910;
+  const BIRTH_YEAR = 2003;
   const LIMIT = 2;
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
           className="rounded-lg"
-          src="/pngegg.png"
+          src="/me.jpg"
           alt="Photo of Donald"
           width={175}
           height={175}
@@ -49,6 +50,16 @@ export default function Home() {
             </Link>
             <Socials />
           </section>
+        </div>
+      </section>
+      <section id="skills" className="flex flex-col gap-4">
+        <h2 className="text-3xl font-bold">Skills & Technologies</h2>
+        <div className="flex flex-wrap gap-2">
+          {skillsData.skill.map((skill: string) => (
+            <Badge key={skill} variant="secondary" className="text-sm">
+              {skill}
+            </Badge>
+          ))}
         </div>
       </section>
       <section className="flex flex-col gap-8">
