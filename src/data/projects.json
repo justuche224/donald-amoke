@@ -54,6 +54,27 @@
       ]
     },
     {
+      "name": "Flixnomad",
+      "description": "A Native Mobile App to watch and download latest movies and TV shows for free.",
+      "href": "https://github.com/justuche224/Flixnomad-App",
+      "image": "/projects/flixnomad.jpg",
+      "tags": [
+        "TypeScript",
+        "React Native",
+        "Expo",
+        "Next Auth",
+        "Nativewind",
+        "React Native Reanimated"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/justuche224/Flixnomad-App",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Notestar",
       "description": "A note-taking app with markdown support, rich-text editing, todos and tables",
       "href": "https://notestar-two.vercel.app/",
