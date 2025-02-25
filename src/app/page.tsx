@@ -11,7 +11,7 @@ import skillsData from "@/data/skills.json";
 
 export default function Home() {
   const BIRTH_YEAR = 2003;
-  const LIMIT = 2;
+  const LIMIT = 4;
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
