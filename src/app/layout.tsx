@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Amoke Donald",
+  title: "Donald Amoke",
   description: "A full-stack JavaScript/TypeScript dev",
 };
 
