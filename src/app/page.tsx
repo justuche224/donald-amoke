@@ -10,7 +10,6 @@ import ContactForm from "@/components/ContactForm";
 import skillsData from "@/data/skills.json";
 
 export default function Home() {
-  const BIRTH_YEAR = 2003;
   const LIMIT = 4;
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
@@ -26,10 +25,8 @@ export default function Home() {
         <div className="flex flex-col">
           <h1 className="title text-5xl">Hi I&apos;m Donald</h1>
           <p className="mt-4 font-light text-lg">
-            {/* Update my age */}
-            {new Date().getFullYear() - BIRTH_YEAR}
-            -year-old <span className="font-bold">full-stack</span> developer
-            from <span className="font-bold">Nigeria</span> 🇳🇬.
+            <span className="font-bold">full-stack</span> developer from{" "}
+            <span className="font-bold">Nigeria</span> 🇳🇬.
           </p>
           <p className="mt-2 font-light text-lg">
             I&apos;m a <span className="font-bold">JavaScript/TypeScript</span>{" "}

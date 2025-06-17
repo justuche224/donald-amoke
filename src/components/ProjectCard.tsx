@@ -17,15 +17,15 @@ interface Props {
 }
 
 export function ProjectCard({ project }: Props) {
-  const { name, href, description, image, tags, links } = project;
+  const { name, href, description, images, tags, links } = project;
 
   return (
     <Card className="flex flex-col bg-black">
       <CardHeader>
-        {image && (
-          <Link href={href || image}>
+        {images && images.length > 0 && (
+          <Link href={href || images[0]}>
             <Image
-              src={image}
+              src={images[0]}
               alt={name}
               width={500}
               height={300}

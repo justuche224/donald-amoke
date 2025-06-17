@@ -24,7 +24,7 @@ const project = z.object({
   name: z.string(),
   description: z.string(),
   href: z.string().url().optional(),
-  image: z.string().optional(),
+  images: z.array(z.string()).optional(),
   tags: z.array(z.string()),
   links: z.array(iconLink),
 });

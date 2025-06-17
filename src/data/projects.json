@@ -1,10 +1,82 @@
 {
   "projects": [
     {
+      "name": "Zynkart",
+      "description": "All-in-one platform to build, manage, and scale your business online with powerful tools for inventory, shipping, and customer management and a dedicated store website.",
+      "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
+      "images": [
+        "/projects/zynkart/dashboard.png",
+        "/projects/zynkart/products.png",
+        "/projects/zynkart/store-front.png",
+        "/projects/zynkart/new-product.png"
+      ],
+      "tags": [
+        "TypeScript",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "NextJS",
+        "React Query",
+        "Better Auth",
+        "Supabase",
+        "Paystack",
+        "Multi Tenancy",
+        "Shadcn UI",
+        "TailwindCSS"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/justuche224/zynkart",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://zynkart.store",
+          "icon": "globe"
+        },
+        {
+          "name": "Example",
+          "href": "https://spicey-world.zynkart.store",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Xyen AI",
+      "description": "Xyen AI helps students, educators, and professionals generate comprehensive exam questions from any document. Upload files or use AI prompts to create customized quizzes in seconds.",
+      "href": "https://xyen.ai",
+      "images": ["/projects/xyen.png"],
+      "tags": [
+        "TypeScript",
+        "Gemini API",
+        "Hono JS",
+        "Supabase",
+        "oRPC",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "NextJS",
+        "React Query",
+        "Better Auth",
+        "TailwindCSS"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/justuche224/xyen-ai",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://xyen-ai-web.vercel.app/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Chesshub Online",
       "description": "Online multiplayer chess game with real-time chat, tutorials, and AI opponents",
       "href": "https://chesshubonline.vercel.app/",
-      "image": "/projects/chesshubonline-desktop-screenshot-gamepage.png",
+      "images": ["/projects/chesshubonline-desktop-screenshot-gamepage.png"],
       "tags": [
         "TypeScript",
         "NextJS",
@@ -27,37 +99,10 @@
       ]
     },
     {
-      "name": "Zynkart",
-      "description": "All-in-one platform to build, manage, and scale your business online with powerful tools for inventory, shipping, and customer management and a dedicated store website.",
-      "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
-      "image": "/projects/zynkart1.png",
-      "tags": [
-        "TypeScript",
-        "Drizzle ORM",
-        "PostgreSQL",
-        "NextJS",
-        "React Query",
-        "Next Auth",
-        "TailwindCSS"
-      ],
-      "links": [
-        {
-          "name": "Coming soon",
-          "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
-          "icon": "github"
-        },
-        {
-          "name": "Coming soon",
-          "href": "https://qlvnghvpsfqflytgfadz.supabase.co/storage/v1/object/public/cartify/banners/zynkart1.png",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
       "name": "Flixnomad",
       "description": "A Native Mobile App to watch and download latest movies and TV shows for free.",
       "href": "https://github.com/justuche224/Flixnomad-App",
-      "image": "/projects/flixnomad.jpg",
+      "images": ["/projects/flixnomad.jpg"],
       "tags": [
         "TypeScript",
         "React Native",
@@ -78,7 +123,7 @@
       "name": "Notestar",
       "description": "A note-taking app with markdown support, rich-text editing, todos and tables",
       "href": "https://notestar-two.vercel.app/",
-      "image": "/projects/notestar-desktop-screenshot-new-note-page.png",
+      "images": ["/projects/notestar-desktop-screenshot-new-note-page.png"],
       "tags": [
         "TypeScript",
         "NextJS",
@@ -105,7 +150,7 @@
       "name": "jvst-do-it!",
       "description": "A minimal and aesthetically pleasing todo app aimed at helping users manage their tasks effectively.",
       "href": "https://jvst-do-it.vercel.app/",
-      "image": "/projects/jvstdoit.png",
+      "images": ["/projects/jvstdoit.png"],
       "tags": [
         "TypeScript",
         "NextJS",

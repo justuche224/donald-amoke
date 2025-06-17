@@ -5,6 +5,9 @@
     "Next JS",
     "React Native",
     "Expo",
+    "React Query",
+    "Tanstack Router",
+    "Better Auth",
     "Node JS",
     "Hono JS",
     "React",
@@ -16,6 +19,10 @@
     "CSS",
     "PostgreSQL",
     "Git",
-    "ViteJS"
+    "ViteJS",
+    "Shadcn UI",
+    "Supabase",
+    "oRPC",
+    "Multi Tenancy"
   ]
 }
